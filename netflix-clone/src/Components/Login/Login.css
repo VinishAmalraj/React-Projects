@@ -1,0 +1,186 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.headcontainer {
+  font-family: "Bebas Neue", sans-serif;
+  background: rgba(0, 0, 0, 0.7)
+    url("https://i2.wp.com/thebutlercollegian.com/wp-content/uploads/2019/03/netflix-image.jpg?w=2000&ssl=1")
+    center/cover;
+  background-blend-mode: darken;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+}
+#logo {
+  height: 50px;
+  margin: 20px 40px;
+}
+.Warnning {
+  width: 280px;
+  height: 40px;
+  margin: -50px 0 0 -50px;
+  color: #e50914;
+  display: none;
+}
+.Warnning1 {
+  width: 280px;
+  color: #e50914;
+  margin: -50px 0 0 -50px;
+  display: none;
+}
+
+.login-header {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.647);
+  backdrop-filter: blur(1px);
+  height: 700px;
+  min-width: 400px;
+}
+.login-header h1 {
+  color: #f8fbff;
+  padding: 40px;
+}
+.login-inputs {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.phonebox {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  height: 80px;
+}
+.phonebox input {
+  position: absolute;
+  height: 30px;
+  width: 300px;
+  outline: none;
+  font-size: 1.1em;
+  padding: 23px 20px 2px 25px;
+  border-radius: 5px;
+  border: 2px solid rgb(103, 103, 103);
+  background: transparent;
+  transition: all 0.3s ease;
+  color: #ffff;
+}
+.labelline {
+  color: #a7a7a6;
+  pointer-events: none;
+  z-index: 1111;
+  position: absolute;
+  margin: 15px 60px;
+  background: transparent;
+  width: 300px;
+}
+.phonebox input:focus + .labelline,
+.phonebox input:valid + .labelline {
+  line-height: 30px;
+  height: 50px;
+  transform: translate(-15px, -15px) scale(0.88);
+  z-index: 1111;
+}
+.phonebox input:focus {
+  border: 2px solid white;
+}
+#sign-in-btn {
+  height: 40px;
+  width: 350px;
+  outline: none;
+  font-size: 1.1em;
+  color: #ffff;
+  border-radius: 5px;
+  border: none;
+  background-color: #e50914;
+  margin-top: -30px;
+}
+
+#sign-in-btn:hover {
+  background-color: #c11119;
+  cursor: pointer;
+}
+.login-sign-in {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px;
+  transition: all ease 0.5s;
+  color: #ffff;
+}
+#Code-btn {
+  height: 40px;
+  width: 350px;
+  outline: none;
+  font-size: 1.1em;
+  border-radius: 5px;
+  border: none;
+  background-color: #3b3939;
+  margin-left: 5px;
+  transition: all ease 0.5s;
+  color: #ffff;
+}
+#Code-btn:hover {
+  background-color: #292727;
+}
+.login-remeber {
+  margin-left: 30px;
+  line-height: 30px;
+}
+.login-remeber span {
+  font-size: 1.2em;
+  margin: 10px;
+}
+#Remeber-chk {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.login-remeber p {
+  color: #767676;
+  margin: 10px;
+}
+.login-remeber a {
+  margin: 10px;
+}
+.login-sign-in a,
+.login-remeber a {
+  text-decoration: none;
+  color: #ffff;
+}
+.login-remeber span {
+  color: #ffff;
+}
+a:hover {
+  text-decoration: underline;
+}
+.login-footer {
+  color: #979393;
+  margin-top: 80px;
+  height: 400px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.647);
+  backdrop-filter: blur(1px);
+}
+.login-footer p {
+  padding: 50px;
+}
+.foot-content table {
+  line-height: 50px;
+}
+.foot-content table td {
+  padding: 0 0 0 100px;
+}
+.foot-content table a {
+  text-decoration: underline;
+}
+.login-footer a {
+  color: #818080;
+}

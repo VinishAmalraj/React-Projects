@@ -1,0 +1,44 @@
+.Nav-head {
+  top: 0;
+  position: sticky;
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+.logoname img {
+  margin-left: 20px;
+  height: 50px;
+}
+.loginbox {
+  display: flex;
+  gap: 30px;
+  margin: 30px;
+}
+.loginbox #Joinbtn {
+  background-color: #e50914;
+  color: #ffff;
+  width: 100px;
+}
+.loginbox #Joinbtn:hover {
+  background-color: rgb(237, 18, 18);
+}
+.loginbox button {
+  height: 35px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 10px;
+}
+.loginbox #sigin-btn {
+  background-color: transparent;
+  color: #ffff;
+  border: 2px solid #ffff;
+}
+.loginbox #sigin-btn:hover {
+  background-color: rgba(207, 207, 207, 0.197);
+}

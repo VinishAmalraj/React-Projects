@@ -1,0 +1,22 @@
+.footer-Contect {
+  color: #737373;
+  margin-top: 80px;
+  height: 400px;
+  width: 100%;
+  bottom: 0;
+}
+.footer-Contect p {
+  padding: 50px;
+}
+.footer-Contect table {
+  line-height: 50px;
+}
+.footer-Contect table td {
+  padding: 0 0 0 100px;
+}
+.foot-content table a {
+  text-decoration: underline;
+}
+.footer-Contect a {
+  color: #818080;
+}

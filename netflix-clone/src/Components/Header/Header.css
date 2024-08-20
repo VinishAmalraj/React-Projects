@@ -1,0 +1,40 @@
+.Head {
+  margin: 0;
+  height: 500px;
+  display: flex;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(to bottom, transparent, rgba(52, 52, 52, 0.762)),
+    url("https://i2.wp.com/thebutlercollegian.com/wp-content/uploads/2019/03/netflix-image.jpg?w=2000&ssl=1")
+      center/cover;
+}
+
+.head-content {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 200px 0 0 60px;
+}
+.play-btn button {
+  font-size: 1.1em;
+  padding: 5px;
+  width: 80px;
+  color: #ffff;
+  border: 1px black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.play-btn {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+#List-btn {
+  background-color: #57564f9b;
+}
+#Play-btn {
+  color: #000000;
+}
+.details p {
+  font-size: 1.2em;
+}

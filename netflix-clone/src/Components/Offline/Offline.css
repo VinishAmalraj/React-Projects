@@ -1,0 +1,28 @@
+/* HTML: <div class="loader"></div> */
+.ofbox {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loader1 {
+  aspect-ratio: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 8px solid rgb(255, 255, 255);
+  border-right-color: rgb(255, 0, 0);
+  animation: l2 1s infinite linear;
+  align-items: center;
+}
+@keyframes l2 {
+  to {
+    transform: rotate(1turn);
+  }
+}
+.ofbox h1,
+p {
+  color: #ffff;
+}

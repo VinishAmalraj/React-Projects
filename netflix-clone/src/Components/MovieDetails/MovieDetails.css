@@ -1,0 +1,59 @@
+.main-container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.Banner {
+  color: #ffff;
+  padding: 0 80px;
+  min-height: 600px;
+  max-height: 700px;
+}
+.title-1 {
+  width: 500px;
+  margin: 200px 0;
+}
+#Timing {
+  color: rgb(102, 102, 102);
+}
+.join #Join {
+  height: 35px;
+  width: 100px;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 10px;
+  background-color:#e50914;
+  color: #ffff;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.join {
+  display: flex;
+  height: 60px;
+  padding: 0 80px;
+  background-color: #2e2e2e;
+  justify-content: space-between;
+  align-items: center;
+  margin: 250px 0;
+}
+.join img {
+  height: 50px;
+  margin: 0 0 0 20px;
+}
+.container1 {
+  padding: 100px 80px;
+  text-align: center;
+}
+.Trailercontainer iframe {
+  margin: 30px;
+}
+.container1 p {
+  color: #ffff;
+  font-size: 1.1em;
+}
+.Trailercontainer {
+  padding: 0 80px;
+  color: #ffff;
+}
